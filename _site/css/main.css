@@ -117,11 +117,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("..{{ site.baseurl }}/img/bg-pattern.png"), #00307f;
+  background: url("../img/bg-pattern.png"), #00307f;
   /* fallback for old browsers */
-  background: url("..{{ site.baseurl }}/img/bg-pattern.png"), -webkit-linear-gradient(to left, #00307f, #1294d1);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #00307f, #1294d1);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("..{{ site.baseurl }}/img/bg-pattern.png"), linear-gradient(to left, #00307f, #1294d1);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #00307f, #1294d1);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white; }
   header .header-content {
@@ -221,7 +221,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("..{{ site.baseurl }}/img/bg-cta.jpg");
+    background-image: url("../img/bg-cta.jpg");
     padding: 250px 0; }
     section.cta .cta-content {
       position: relative;
@@ -246,7 +246,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("..{{ site.baseurl }}/img/community.jpg");
+    background-image: url("../img/community.jpg");
     padding: 250px 0; }
     section.cta-community .cta-content-community {
       position: relative;
@@ -271,7 +271,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("..{{ site.baseurl }}/img/community-2.jpg");
+    background-image: url("../img/community-2.jpg");
     padding: 250px 0; }
     section.cta-community-2 .cta-content-community-2 {
       position: relative;
@@ -296,7 +296,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("..{{ site.baseurl }}/img/passion.jpg");
+    background-image: url("../img/passion.jpg");
     padding: 250px 0; }
     section.cta-community-3 .cta-content-community-3 {
       position: relative;
@@ -321,7 +321,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("..{{ site.baseurl }}/img/donate.jpg");
+    background-image: url("../img/donate.jpg");
     padding: 250px 0; }
     section.cta-donate .cta-content-donate {
       position: relative;
