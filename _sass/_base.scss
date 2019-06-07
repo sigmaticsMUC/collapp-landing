@@ -320,6 +320,93 @@ section {
       left: 0;
     }
   }
+  &.cta-community {
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../img/community.jpg');
+    padding: 250px 0;
+    .cta-content-community {
+      position: relative;
+      z-index: 1;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: white;
+        max-width: 450px;
+        font-size: 50px;
+      }
+    }
+    .overlay-community {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &.cta-community-2 {
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../img/community-2.jpg');
+    padding: 250px 0;
+    .cta-content-community-2 {
+      position: relative;
+      z-index: 1;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: white;
+        max-width: 450px;
+        font-size: 50px;
+      }
+    }
+    .overlay-community-2 {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &.cta-community-3 {
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../img/passion.jpg');
+    padding: 250px 0;
+    .cta-content-community-3 {
+      position: relative;
+      z-index: 1;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: white;
+        max-width: 450px;
+        font-size: 50px;
+      }
+    }
+    .overlay-community-3 {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
   &.cta-donate {
     position: relative;
     -webkit-background-size: cover;
@@ -457,6 +544,10 @@ footer {
   color: $theme-primary;
 }
 
+.text-primary-alt {
+  color: $theme-secondary
+}
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
@@ -468,8 +559,8 @@ footer {
   border: 1px solid;
   &:hover, &:focus, &:active, &.active {
     color: white;
-    background-color: $theme-primary;
-    border-color: $theme-primary;
+    background-color: black;
+    border-color: white;
   }
 }
 
