@@ -117,11 +117,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #00307f;
+  background: url("../img/header-image.png"), #00307f;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #00307f, #1294d1);
+  background: url("../img/header-image.png"), -webkit-linear-gradient(to left, #00307f, #1294d1);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #00307f, #1294d1);
+  background: url("../img/header-image.png"), linear-gradient(to left, #00307f, #1294d1);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white; }
   header .header-content {
