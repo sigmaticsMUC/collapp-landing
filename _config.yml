@@ -1,38 +1,141 @@
-# Site settings
-title: Collapp
-email:
-description:
+#page title
+page_title                                : Collapp                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
-baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://thecollapp.com" # the base hostname & protocol for your site
+# App Info
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-#Google Ad Words Data from scripts code (using Google responsive options) and ad client
+appstore_link                             : https://google.de                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : https://play.google.com/store/apps/details?id=collapp.collapp                                          # Enter Google Play Store URL.
+presskit_download_link                    : presskit                                      # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-data-ad-slot:
-data-ad-client:
-google_ad_client:
 
-google_analytics:
-addthis_id:
-disqus_account: 
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Collapp                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Your Community Platform                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Community tailored for your needs!<br> Join now and find groups that suit you
 
-# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
-social:
-  - title: twitter
-    url: https://twitter.com/thecollapp
-  - title: facebook
-    url: https://facebook.com/Collapp-1134691469995088
-  - title: instagram
-    url: https://www.instagram.com/collaborationapp
-  #- title: github
-  #  url: http://github.com/jekyll
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-# Build settings
+enable_google_analytics                   : false
+
+# Information About Yourself
+your_name                                 : Alexander Knoll
+your_link                                 :
+your_city                                 : Hamburg
+email_address                             : support@thecollapp.com
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
+youtube_username                          :
+
+# Plugin List
+collappextensions                         :
+
+  - title                                 : Comments
+    description                           : Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the pages directory. The changelog below is simply an example changelog
+    iconpath                              : assets/appicon.png
+    enabled                               : true
+
+  - title                                 : Feedback
+    description                           : Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the pages directory. The changelog below is simply an example changelog
+    iconpath                              : assets/appicon.png
+    enabled                               : true
+
+
+  - title                                 : Goals
+    description                           : Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the pages directory. The changelog below is simply an example changelog
+    iconpath                              : assets/appicon.png
+    enabled                               : true
+
+  - title                                 : Vote
+    description                           : Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the pages directory. The changelog below is simply an example changelog
+    iconpath                              : assets/appicon.png
+    enabled                               : true
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Plugins
+    description                           : Extend group features to suit your community needs. We build the tools that allow you to unlock the full potential of online communities
+    fontawesome_icon_name                 : puzzle-piece
+
+  - title                                 : Community
+    description                           : Take part in online communities that suit you! You did not find something that fits you? Simply create your own!
+    fontawesome_icon_name                 : users
+
+  - title                                 : Posts
+    description                           : Engage your community with simple posts to exchange and discuss ideas. It's up to you!
+    fontawesome_icon_name                 : comments
+
+  - title                                 : Events
+    description                           : Join offline and online group events directly from withing your community.
+    fontawesome_icon_name                 : calendar
+
+  - title                                 : Media
+    description                           : Share, organize and archive all kinds of media within your groups
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : Passion
+    description                           : Made with passion. I am working everyday to make your experience with Collapp better!
+    fontawesome_icon_name                 : heart
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : bbwhiteone                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
-# Build settings
+plugins:
+  - jekyll-sitemap
