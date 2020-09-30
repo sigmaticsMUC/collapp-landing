@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Beta Reports
+description: Listing of all previous and current test reports
 include_in_header: true
 include_in_footer: false
 ---
