@@ -1,23 +1,16 @@
 <head>
 
-	<!-- Twitter cards -->
+	<!-- Twitter cards
 	<meta name="twitter:site"    content="Collapp: Your Community Platform">
 	<meta name="twitter:creator" content="@alexCollapp">
-	<meta name="twitter:title"   content="{{ page.title }}">
-	<meta name="twitter:text:title"   content="{{ page.title }}">
+	<meta name="twitter:title"   content="This is title">
+	<meta name="twitter:text:title"   content="This is text:title">
 
-	{% if page.title %}
-	<meta name="twitter:title"   content="{{ page.title }}">
-	<meta name="twitter:text:title"   content="{{ page.title }}">
-	{% else %}
-	<meta name="twitter:title"   content="Collapp: Your Community Platform">
-	<meta name="twitter:text:title"   content="Collapp: Your Community Platform">
-	{% endif %}
 
 	{% if page.summary %}
 	<meta name="twitter:description" content="{{ page.summary }}">
 	{% else %}
-	<meta name="twitter:description" content="{{ site.app_description }}">
+	<meta name="twitter:description" content="This is the page description">
 	{% endif %}
 
 	{% if page.image %}
@@ -28,7 +21,16 @@
 	<meta name="twitter:image" content="http://thecollapp.com/assets/appicon.png">
 	<meta name="twitter:image:src" content=http://thecollapp.com/assets/appicon.png">
 	{% endif %}
-	<!-- end of Twitter cards -->
+	 -->
+
+	 <meta name="twitter:card" content="app">
+	 <meta name="twitter:site" content="@alexCollapp">
+	 <meta name="twitter:description" content="Cannonball is the fun way to create and share stories and poems on your phone. Start with a beautiful image from the gallery, then choose words to complete the story and share it with friends.">
+	 <meta name="twitter:app:country" content="US">
+	 <meta name="twitter:app:name:googleplay" content="Cannonball">
+	 <meta name="twitter:app:id:googleplay" content="collapp.collapp">
+	 <meta name="twitter:app:url:googleplay" content="{{ site.playstore_link }}">
+
 
 
 	<meta charset="utf-8">
