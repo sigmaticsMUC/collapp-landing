@@ -1,25 +1,39 @@
 <head>
 
 	<!-- Twitter cards -->
-	<meta name="twitter:site"    content="Collapp: Your Community Platform">
-	<meta name="twitter:creator" content="@alexCollapp">
-	<meta name="twitter:title"   content="This is title">
-	<meta name="twitter:text:title"   content="This is text:title">
+
+	{% if page.title %}
+		<meta name="twitter:site"    content="Collapp: Your Community Platform">
+		<meta name="twitter:creator" content="@alexCollapp">
+		<meta name="twitter:title"   content="This is title">
+		<meta name="twitter:text:title"   content="This is text:title">
 
 
-	{% if page.summary %}
-	<meta name="twitter:description" content="{{ page.summary }}">
+		{% if page.summary %}
+		<meta name="twitter:description" content="{{ page.summary }}">
+		{% else %}
+		<meta name="twitter:description" content="This is the page description">
+		{% endif %}
+
+		{% if page.image %}
+		<meta name="twitter:card"  content="summary_large_image">
+		<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+		{% else %}
+		<meta name="twitter:card"  content="summary">
+		<meta name="twitter:image" content="http://thecollapp.com/assets/appicon.png">
+		<meta name="twitter:image:src" content=http://thecollapp.com/assets/appicon.png">
+		{% endif %}
+
 	{% else %}
-	<meta name="twitter:description" content="This is the page description">
-	{% endif %}
 
-	{% if page.image %}
-	<meta name="twitter:card"  content="summary_large_image">
-	<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-	{% else %}
-	<meta name="twitter:card"  content="summary">
-	<meta name="twitter:image" content="http://thecollapp.com/assets/appicon.png">
-	<meta name="twitter:image:src" content=http://thecollapp.com/assets/appicon.png">
+		<meta name="twitter:card" content="app">
+	  <meta name="twitter:site" content="@alexCollapp">
+	  <meta name="twitter:description" content="Join the Beta today! Community tailored for your needs! Find groups that suit you">
+	  <meta name="twitter:app:country" content="US">
+	  <meta name="twitter:app:name:googleplay" content="Collapp: Your Community Platform">
+	  <meta name="twitter:app:id:googleplay" content="collapp.collapp">
+	  <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=collapp.collapp">
+
 	{% endif %}
   <!-- END CARD	 -->
 
