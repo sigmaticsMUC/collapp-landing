@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br>
 
 |----------------+-------------------+------------------+--------------------|
-| Test Channel   | Overall Followers | Submited Reports | Requested Features |
+| Test Channel   | Overall Followers | Submited Reports | Requested Changes |
 |----------------|:-----------------:|:----------------:|:------------------:|
 | ![icon](/assets/betafamily.png){:height="24px" width="24px"} [Betafamily](https://betafamily.com) | 99                | 20               | 25                 |
 | ![icon](/assets/appicon.png){:height="24px" width="24px"} TestplatformB.com | 99                | 20               | 25                 |

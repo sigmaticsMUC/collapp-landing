@@ -22,7 +22,7 @@ To carry out the beta test I am using any tests channels available that allow me
 <br>
 
 |----------------+-------------------+------------------+--------------------|
-| Test Channel   | Overall Followers | Submited Reports | Requested Features |
+| Test Channel   | Overall Followers | Submited Reports | Requested Changes |
 |----------------|:-----------------:|:----------------:|:------------------:|
 | ![icon](/assets/betafamily.png){:height="24px" width="24px"} [Betafamily](https://betafamily.com) | 96                | 21               | 27                 |
 |----------------+-------------------+------------------+--------------------|

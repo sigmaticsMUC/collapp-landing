@@ -14,14 +14,13 @@ develops over time.
 <br>
 <br>
 
-### `Active`
-<!-- # [**Version 0.2.4**](/betareports/report_024) -->
-# **Version 0.2.4**
+<!-- ### `Active` -->
+### `Latest`
+# [**Version 0.2.4**](/betareports/report_024)
 This test run focused on the core function of the app which is group actions. User tested the basic available group plugins in order to
 find bugs and to review usability.
 
 <br>
-### `Latest`
 # [**Version 0.2.3**](/betareports/report_023)
 This was the initial test run after transitioning to flutter and releasing an open beta version to various app stores (mainly playstore). The intention was to
 get feedback for the fundamental app functionalities and to evaluate first impressions.
