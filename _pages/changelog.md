@@ -27,13 +27,14 @@ had almost equal distribution between Android and iOS. Flutter allowed me to bui
 Needed to publish this hotfix since some plugins had issues and where not usable.
 
 #### What's New
-- Introduced categories on feedback plugin. 
+- Introduced categories on feedback plugin.
 
 #### Bug Fixes & Improvements
 - Improved report page for accountability plugin
 - Updated validation for event remote URL's
 - Fixed bug on feedback plugin
 
+<br>
 
 ### **Version 0.2.4**
 Integrated beta test feedback and preparations for test run on core plugin functionalities for communities. Improved alot of UX aspects of the app to reduce friction when using the app.
