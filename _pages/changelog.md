@@ -22,12 +22,37 @@ had almost equal distribution between Android and iOS. Flutter allowed me to bui
 
 <br>
 
+### **Version 0.2.6**
+Integrated beta test feedback from [report](https://thecollapp.com/betareports/report_024) on version 0.2.4 and 0.25. Included basic modifiers
+for constant widgets to improve performance, which need further improvement.
+
+#### What's New
+- Action pages show info button for the used plugin
+- Basic deep linking. Allows users to share groups, posts, events, actions and user profiles. Creates link that allows other users
+  to access those resources from outside the app
+- Users can delete the groups they own
+- Users can delete the posts, events, action and media they created
+- Action page shows info button which provides more information about the used plugin
+
+
+#### Bug Fixes & Improvements
+- Post, Event, Action and Group entries in lists are displayed correctly after removing/adding elements
+- You can no longer invite yourself to a group
+- Group size counter now displays actual group size
+- Feedback now correctly displayed after adding entry in feedback action
+- Improved quality of designs on app start
+- Alerts are only deleted when user wants to delete them
+- Improved layout of page for vote option creation
+- Trying to use already registered email when creating new account shows an error now
+
+<br>
+
 ### `Hotfix`
 ### **Version 0.2.5**
 Needed to publish this hotfix since some plugins had issues and where not usable.
 
 #### What's New
-- Introduced categories on feedback plugin.
+- Introduced categories on feedback plugin
 
 #### Bug Fixes & Improvements
 - Improved report page for accountability plugin
@@ -46,10 +71,13 @@ Integrated beta test feedback and preparations for test run on core plugin funct
 - Implemented image caching
 - Obscure text button on password input fields
 - Preview cards now only show shares and comments
-
+- Removed group tags
+- Removed skill from users and groups
+- Users can now update their profile information
 
 #### Bug Fixes & Improvements
-- Improved app stability.
+- Improved app stability
+- Improved report page for goal setting plugin
 - New posts, events, actions and media now show up in right order
 - Adjusted constraints on titles and descriptions when creating posts, events, actions & media
 - Info hints on group creation now show the right messages
