@@ -7,6 +7,7 @@ include_in_footer: false
 ---
 
 # Beta Reports
+
 For whom it may concern. This page will list all beta test evaluations, following a defined format. The goal is to
 track user feedback in a more structured way in hope to get insights into how the whole process of programming, releasing and using the app
 develops over time.
@@ -15,7 +16,12 @@ develops over time.
 <br>
 
 <!-- ### `Active` -->
+
 ### `Latest`
+# [**Version 0.2.6**](/betareports/report_026)
+Test mainly focused around creation, removale and updates of user content. I also tasked users to engage with the `Goaltracker Plugin` to see how they would respond to that aspect of the test.
+
+<br>
 # [**Version 0.2.4**](/betareports/report_024)
 This test run focused on the core function of the app which is group actions. User tested the basic available group plugins in order to
 find bugs and to review usability.
@@ -24,7 +30,6 @@ find bugs and to review usability.
 # [**Version 0.2.3**](/betareports/report_023)
 This was the initial test run after transitioning to flutter and releasing an open beta version to various app stores (mainly playstore). The intention was to
 get feedback for the fundamental app functionalities and to evaluate first impressions.
-
 
 <br>
 

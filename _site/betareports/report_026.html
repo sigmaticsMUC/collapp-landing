@@ -116,22 +116,12 @@
 </header>
 
             <article class="page markdown-body">
-                <h1 id="beta-report-023">Beta Report 0.2.3</h1>
-<p>This was the initial test run after transitioning to flutter and releasing an open beta version to various app stores (mainly playstore). The intention was to
-get feedback for the fundamental app functionalities and to evaluate first impressions. For that reason the test focused on the most basic app functions, which are a prerequisite for further development of core features. User were tasked with the following points:</p>
-
-<ul>
-  <li>Register new account</li>
-  <li>Join or create new group</li>
-  <li>Create post or event inside the “Collapp Community” group</li>
-  <li>Create comments on already available posts or events</li>
-  <li>Send contact requests to other users</li>
-</ul>
+                <h1 id="beta-report-026">Beta Report 0.2.6</h1>
 
 <p><br /></p>
 
 <h2 id="test-channels">Test Channels</h2>
-<p>To carry out the beta test I am using any tests channels available that allow me to distribute the app to beta testers as well as to track their response and evaluations. This does not include simple app directories/publishers.</p>
+<p>To carry out the beta test I am using any tests channels available that allow me to distribute the app to beta testers as well as to track their response and evaluations. This does not include simple app directories/publishers. This time around I managed to get feedback from various sources. Also I received some feedback through Collapp, which was also helpful in many ways. I will try and keep the Overall Followers count for this particular channel aligned with the member group size of the Collapp Community within the app. I was also very satisfied with the turnout of Betafamily. This time around I got a lot of reports, without putting as much effort into inviting testers as in the previous tests runs. The social channels groups the feedback through various social media, predominantly discord and reddit.</p>
 
 <p><br /></p>
 
@@ -146,10 +136,22 @@ get feedback for the fundamental app functionalities and to evaluate first impre
   </thead>
   <tbody>
     <tr>
-      <td><img src="/assets/betafamily.png" alt="icon" height="24px" width="24px" /> <a href="https://betafamily.com">Betafamily</a></td>
-      <td style="text-align: center">96</td>
-      <td style="text-align: center">21</td>
-      <td style="text-align: center">27</td>
+      <td><img src="/assets/betafamily.png" alt="icon" height="24px" width="24px" /> <a href="https://betafamily.com/app/113319">Betafamily</a></td>
+      <td style="text-align: center">75</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">?</td>
+    </tr>
+    <tr>
+      <td>Social</td>
+      <td style="text-align: center">~10</td>
+      <td style="text-align: center">~10</td>
+      <td style="text-align: center">13</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/appicon.png" alt="icon" height="24px" width="24px" /> Collapp</td>
+      <td style="text-align: center">109</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">12</td>
     </tr>
   </tbody>
 </table>
@@ -157,7 +159,7 @@ get feedback for the fundamental app functionalities and to evaluate first impre
 <p><br /></p>
 
 <h2 id="tickets-by-category">Tickets by Category</h2>
-<p>The submited reports from the test channels are broadly categorized into four major categories. This will help to undertand which areas of the app need more focus and are most important for the users right now.</p>
+<p>The submitted reports from the test channels are broadly categorized into four major categories. This will help to understand which areas of the app need more focus and are most important for the users. I plan on removing/replacing the <code class="language-plaintext highlighter-rouge">Stability &amp; Performance</code> section by adding a <code class="language-plaintext highlighter-rouge">Feature Request</code> section.</p>
 
 <div width="100%">
   <style>
@@ -170,7 +172,7 @@ get feedback for the fundamental app functionalities and to evaluate first impre
     float: left;
   }
 
-  .trailing {
+  .trailing {as
     height: 100%;
     padding-top: 1%;
     vertical-align: middle;
@@ -189,9 +191,9 @@ get feedback for the fundamental app functionalities and to evaluate first impre
   }
 
   .ui {width: 30%; background-color: #4CAF50;}
-  .ux {width: 51%; background-color: #2196F3;}
-  .sp {width: 8%; background-color: #9900cc;}
-  .bug {width: 11%; background-color: #f44336;}
+  .ux {width: 43%; background-color: #2196F3;}
+  .sp {width: 0%; background-color: #9900cc;}
+  .bug {width: 27%; background-color: #f44336;}
   </style>
 
   <div class="ticketTitleContainer">
@@ -206,7 +208,7 @@ get feedback for the fundamental app functionalities and to evaluate first impre
     </div>
   </div>
   <div class="ccontainer">
-    <div class="skills ui"><b>8</b></div>
+    <div class="skills ui"><b>9</b></div>
   </div>
   <br />
 
@@ -222,23 +224,7 @@ get feedback for the fundamental app functionalities and to evaluate first impre
     </div>
   </div>
   <div class="ccontainer">
-    <div class="skills ux"><b>14</b></div>
-  </div>
-  <br />
-
-  <div class="ticketTitleContainer">
-    <div class="leading">
-      <span class="fa-stack fa-1x">
-          <i class="iconBack fas fa-circle fa-stack-2x"></i>
-          <i class="iconTop fas fa-bolt fa-stack-1x"></i>
-      </span>
-    </div>
-    <div class="trailing">
-      <p><b>Stability &amp; Performance</b></p>
-    </div>
-  </div>
-  <div class="ccontainer">
-    <div class="skills sp"><b>2</b></div>
+    <div class="skills ux"><b>13</b></div>
   </div>
   <br />
 
@@ -254,14 +240,15 @@ get feedback for the fundamental app functionalities and to evaluate first impre
     </div>
   </div>
   <div class="ccontainer">
-    <div class="skills bug"><b>3</b></div>
+    <div class="skills bug"><b>8</b></div>
   </div>
   <br />
 
 </div>
 
 <h2 id="major-issues">Major Issues</h2>
-<p>Evaluating the submited reports gives insight into which issues are most recognized by beta testers. Most of the reports where centered around friction created through bad UX. Only a few bugs where found during the testing period. The uncovered bugs were mostly minor issues which could be resolved fast without any changes to how the app is structured. The biggest problem I faced from using the app was when loading more content than the average beta tester did. I experienced stability problems due to concurrent downloads of multiple images of user profiles and groups.</p>
+<p>Evaluating the submitted reports gives insight into which issues are most recognized by beta testers. Submissions pointed out that there were inconsistency when it comes to deleting entries from groups. People also noticed an increase in bugs, compared to previous version. Overall the major group seems to be consistently UX, which means that there is some noise/friction while using the app. Also people, although not a lot of them,voice their issues in fully understanding how the app works and what it is supposed to be.
+The most common reported issues referred to bugs.</p>
 
 <div class="issues">
 
@@ -269,15 +256,32 @@ get feedback for the fundamental app functionalities and to evaluate first impre
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-bolt fa-stack-1x"></i>
+                <i class="iconTop fas fa-bug fa-stack-1x"></i>
             </span>
         </div>
         <div class="featureText">
             <h3>
-                App crashes
+                Deleting entries
             </h3>
             <p>
-                The app crashed during various use cases. The problem seems that multiple concurrent downloads of uncached images resulted in memory shortages
+                Deleted posts, events &amp; actions were still visible on home screen
+            </p>
+        </div>
+    </div>
+
+    <div class="issue">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-bug fa-stack-1x"></i>
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+              Missing media on post
+            </h3>
+            <p>
+              Users could not add media to posts on creation page
             </p>
         </div>
     </div>
@@ -291,27 +295,10 @@ get feedback for the fundamental app functionalities and to evaluate first impre
         </div>
         <div class="featureText">
             <h3>
-                Auto submit textfields and focus issue
+                Account verification
             </h3>
             <p>
-                Text input from textfield was only submited after clicking the 'submit' action button on the device keyboard. Also textfields tended to automatically grab the focus after closing dialogs which resulted in that the keyboard poped up.
-            </p>
-        </div>
-    </div>
-
-    <div class="issue">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-mobile fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                Show new elements first
-            </h3>
-            <p>
-                When creating posts, events, actions or media withing a group they appear at the bottom of the list initially. After reloading the app the list appeared in right order.
+                Users asked to add account verification functionality to protect email identity
             </p>
         </div>
     </div>
@@ -325,10 +312,10 @@ get feedback for the fundamental app functionalities and to evaluate first impre
         </div>
         <div class="featureText">
             <h3>
-                Remove description requirements
+                Understanding app
             </h3>
             <p>
-                Remove length requirements on all creation pages. This includes titels and descriptions when creating groups, posts, events and actions.
+                A recurring theme amongst a minority of users is that they do not fully comprehend the purpose of the app or other aspects of it
             </p>
         </div>
     </div>
@@ -338,7 +325,7 @@ get feedback for the fundamental app functionalities and to evaluate first impre
 <p><br /></p>
 
 <h2 id="conclusion">Conclusion</h2>
-<p>This test run gave ma alot of insight into which parts of the app did not feel intuitive to the user. Users could not find the ‘contact other user’ function on user profiles. I am suspicios regarding the lack of submited bugs. It may indicate that the testing was not “deep” enough, which stems from the defined tasks. Those could be completed fast and easy (most of them). Future test runs need to focus more on user interactions between users and communities to uncover “real world” issues that might occur during actual use of the app.</p>
+<p>Overall this was a great test with lots of different opinions from a broad audience. It helped to guide me in what aspects I need to improve and from which angle I might need to think about things like marketing and task priorities. I think I should focus on one particular group of people and build value around their needs first, instead of working in a broad context and understanding of what this app will and should be.</p>
 
             </article>
         </div>

@@ -51,6 +51,15 @@
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179036787-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-179036787-1');
+	</script>
+	
 </head>
 
 
@@ -126,10 +135,56 @@ had almost equal distribution between Android and iOS. Flutter allowed me to bui
 
 <p><br /></p>
 
+<h3 id="version-026"><strong>Version 0.2.6</strong></h3>
+<p>Integrated beta test feedback from <a href="https://thecollapp.com/betareports/report_024">report</a> on version 0.2.4 and 0.25. Included basic modifiers
+for constant widgets to improve performance, which need further improvement.</p>
+
+<h4 id="whats-new-1">What’s New</h4>
+<ul>
+  <li>Action pages show info button for the used plugin</li>
+  <li>Basic deep linking. Allows users to share groups, posts, events, actions and user profiles. Creates link that allows other users
+to access those resources from outside the app</li>
+  <li>Users can delete the groups they own</li>
+  <li>Users can delete the posts, events, action and media they created</li>
+  <li>Action page shows info button which provides more information about the used plugin</li>
+</ul>
+
+<h4 id="bug-fixes--improvements">Bug Fixes &amp; Improvements</h4>
+<ul>
+  <li>Post, Event, Action and Group entries in lists are displayed correctly after removing/adding elements</li>
+  <li>You can no longer invite yourself to a group</li>
+  <li>Group size counter now displays actual group size</li>
+  <li>Feedback now correctly displayed after adding entry in feedback action</li>
+  <li>Improved quality of designs on app start</li>
+  <li>Alerts are only deleted when user wants to delete them</li>
+  <li>Improved layout of page for vote option creation</li>
+  <li>Trying to use already registered email when creating new account shows an error now</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="hotfix"><code class="language-plaintext highlighter-rouge">Hotfix</code></h3>
+<h3 id="version-025"><strong>Version 0.2.5</strong></h3>
+<p>Needed to publish this hotfix since some plugins had issues and where not usable.</p>
+
+<h4 id="whats-new-2">What’s New</h4>
+<ul>
+  <li>Introduced categories on feedback plugin</li>
+</ul>
+
+<h4 id="bug-fixes--improvements-1">Bug Fixes &amp; Improvements</h4>
+<ul>
+  <li>Improved report page for accountability plugin</li>
+  <li>Updated validation for event remote URL’s</li>
+  <li>Fixed bug on feedback plugin</li>
+</ul>
+
+<p><br /></p>
+
 <h3 id="version-024"><strong>Version 0.2.4</strong></h3>
 <p>Integrated beta test feedback and preparations for test run on core plugin functionalities for communities. Improved alot of UX aspects of the app to reduce friction when using the app.</p>
 
-<h4 id="whats-new-1">What’s New</h4>
+<h4 id="whats-new-3">What’s New</h4>
 <ul>
   <li>Accountability plugin for groups</li>
   <li>Pro &amp; Contra feedback plugin for groups</li>
@@ -137,11 +192,15 @@ had almost equal distribution between Android and iOS. Flutter allowed me to bui
   <li>Implemented image caching</li>
   <li>Obscure text button on password input fields</li>
   <li>Preview cards now only show shares and comments</li>
+  <li>Removed group tags</li>
+  <li>Removed skill from users and groups</li>
+  <li>Users can now update their profile information</li>
 </ul>
 
-<h4 id="bug-fixes--improvements">Bug Fixes &amp; Improvements</h4>
+<h4 id="bug-fixes--improvements-2">Bug Fixes &amp; Improvements</h4>
 <ul>
-  <li>Improved app stability.</li>
+  <li>Improved app stability</li>
+  <li>Improved report page for goal setting plugin</li>
   <li>New posts, events, actions and media now show up in right order</li>
   <li>Adjusted constraints on titles and descriptions when creating posts, events, actions &amp; media</li>
   <li>Info hints on group creation now show the right messages</li>
