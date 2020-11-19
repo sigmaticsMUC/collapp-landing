@@ -5,6 +5,14 @@ include_in_header: false
 ---
 
 # Beta Report 0.2.6
+On this one I wanted to make sure the added features were working properly and as users might expect them to do. Also I wanted to gather insight into how users perceive the first available plugin. It was important to see whether they would understand how to use the plugin and what it does. So for this test, I tasked the users with the following:
+
+- Create account [If you don't already have on]
+- Try to update your profile
+- Create or join a group
+- Create a Post/Event
+- Delete a Post/Event
+- Create an Action. Choose the "Member Goals" plugin. Try to use the action by adding goals to the action after you created it. Also make sure to checkout the report page on that new action.
 
 <br>
 
@@ -16,7 +24,7 @@ To carry out the beta test I am using any tests channels available that allow me
 |----------------+-------------------+------------------+--------------------|
 | Test Channel   | Overall Followers | Submited Reports | Requested Changes |
 |----------------|:-----------------:|:----------------:|:------------------:|
-| ![icon](/assets/betafamily.png){:height="24px" width="24px"} [Betafamily](https://betafamily.com/app/113319) | 75                | 25               | ?                 |
+| ![icon](/assets/betafamily.png){:height="24px" width="24px"} [Betafamily](https://betafamily.com/app/113319) | 75                | 25               | 28                 |
 | Social  | ~10 | ~10 | 13 |
 | ![icon](/assets/appicon.png){:height="24px" width="24px"} Collapp | 109 | 4 | 12 |
 |----------------+-------------------+------------------+--------------------|
