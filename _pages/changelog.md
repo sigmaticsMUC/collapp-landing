@@ -26,7 +26,7 @@ had almost equal distribution between Android and iOS. Flutter allowed me to bui
 Implementing feedback from [report](https://thecollapp.com/betareports/report_026). Alot of bug fixing and UI/UX improvements. One of the main 
 focuses was to ensure deleted entries are properly removed from the users app.
 
-### What's New
+#### What's New
 - Added image crop functionality. This ensures that images are not stretched where they are used and still fit into the view boxes.
 - Users can now join ongoing goal setting action
 - Posts, Event and Actions now show creation dates on cards and pages
