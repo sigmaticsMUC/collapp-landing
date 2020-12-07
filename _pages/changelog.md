@@ -22,6 +22,34 @@ had almost equal distribution between Android and iOS. Flutter allowed me to bui
 
 <br>
 
+### **Version 0.2.7**
+Implementing feedback from [report](https://thecollapp.com/betareports/report_026). Alot of bug fixing and UI/UX improvements. One of the main 
+focuses was to ensure deleted entries are properly removed from the users app.
+
+### What's New
+- Added image crop functionality. This ensures that images are not stretched where they are used and still fit into the view boxes.
+- Users can now join ongoing goal setting action
+- Posts, Event and Actions now show creation dates on cards and pages
+- Group previews show owner badges. Also within the groups member page the group owner is marked as **Organizer**
+- Creating Events, Actions triggers notification of group members
+- Interest creation and editing is moved to new extra page
+
+#### Bug Fixes & Improvements
+- Fixed a bug with Event notifications
+- Fixed bug with group size counters
+- Removed bug from user profile settings page
+- Removed match function
+- Removed bug which allowed group owners to leave their own groups
+- Removed bug that lead to deleted Posts, Events and Action to still show up on users devices
+- Clicking outside of **Creation Menu** on the Group page now closes the menu
+- Added prefix to url input field on the Event creation page
+- Added multiple confirmation popups when interacting with the app
+- Centered user name on chat page
+- Pressing back button on home screen now minimizes the app instead of doing nothing
+- Generall UI improvements
+
+<br>
+
 ### **Version 0.2.6**
 Integrated beta test feedback from [report](https://thecollapp.com/betareports/report_024) on version 0.2.4 and 0.25. Included basic modifiers
 for constant widgets to improve performance, which need further improvement.
