@@ -15,7 +15,9 @@ develops over time.
 <br>
 <br>
 
-<!-- ### `Active` -->
+### `Active'
+# **Version 0.3.0**
+Broad functionality test after major migration to new plugin system and tool upgrades. User are asked to engage with core features of the app to see whether latest adjustments introduced any breaking changes to the app. The result of this test will pave the road to 1.0 release for android devices.
 
 ### `Latest`
 # [**Version 0.2.6**](/betareports/report_026)
