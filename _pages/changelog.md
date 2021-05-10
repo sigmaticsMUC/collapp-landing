@@ -11,6 +11,16 @@ This page lists all updates of the app after the initial beta release on the pla
 <br>
 
 ### `Latest`
+# **Version 0.3**
+Collapp solidifies its overall architecture and approach. After significant underlying changes to the group-system as well as the state management approach I will start to shift, from mainly focusing on technical aspects, towards a user and community inclusive process. The time has come to find its initial set of comitted test users, who are willing to contribute by engaging in meaningfull ways with the app.
+
+### What's new
+- Improved underlying plugin system
+- Improved state management
+- Upgraded technical dependencies such as [Flutter](https://flutter.dev/), [Dart](https://dart.dev/) and other packages
+- Re-designed Goals-plugin and improved usability
+
+
 # **Version 0.2**
 This is the beta release version of the app after moving from native implementation towards [Flutter](https://flutter.dev/). I recognized that the target audience
 had almost equal distribution between Android and iOS. Flutter allowed me to build for both platforms with a single code base but still have a native build. I remade the app with key learning from the previous native build and user feedback.
